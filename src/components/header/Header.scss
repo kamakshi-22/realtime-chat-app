@@ -32,6 +32,11 @@
             &:hover {
                 color: $light;
             }
+
+            &:active,
+            &:focus  {
+                color: $light;
+            }
         }
     }
 }
