@@ -8,14 +8,15 @@
     align-items: center;
     margin-bottom: 10px;
 
-    .logo {
-        width: 50%;
+    .header__logo {
+        flex: 1;
         padding-left: 2%;
         font-size: 1.2rem;
+
     }
 
-    .nav {
-        width: 50%;
+    .header__nav {
+        flex: 1;
         font-size: 0.9rem;
         display: flex;
         flex-direction: row;
@@ -23,19 +24,15 @@
         align-items: center;
         padding-right: 2%;
 
-        .nav-item {
+        .nav__item {
             padding: 0 10px;
             cursor: pointer;
-            color: $primary;
             transition: all 0.3s ease-in-out;
             
-            &:hover {
-                color: $light;
-            }
-
+            &:hover,
             &:active,
             &:focus  {
-                color: $light;
+                color: $primary;
             }
         }
     }
