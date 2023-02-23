@@ -1,6 +1,6 @@
 @import '../../App.scss';
 
-.room{
+.auth{
     border: 1px solid $light;
     padding: 1rem;
     width: 60%;
@@ -9,20 +9,6 @@
     color: $light;
     text-transform: uppercase;
     margin: 10rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-
-    input{
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        border: none;
-        outline: none;
-        background-color: $light;
-        color: $dark;
-        text-transform: capitalize;
-    }
 
     button{
         padding: 0.5rem 2rem;
@@ -31,11 +17,12 @@
         border-radius: 5px;
         cursor: pointer;
         text-transform: capitalize;
+        margin: 1rem 0;
 
         &:hover{
             background-color: $light;
             color: $dark;
         }
     }
-}
 
+}

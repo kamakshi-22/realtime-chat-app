@@ -18,16 +18,11 @@ body {
     color: $light;
     text-transform: capitalize;
     font-weight: 800;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    height: 100vh;
 }
 
-a, button, input, select, text{
-    text-decoration: none;
-    outline: none;
-    border: none;
-    background: none;
-    color: inherit;
-    font: inherit;
+a,button,select,textarea,input{
+    font-family: inherit;
+    font-weight: inherit;
 }
-
-
