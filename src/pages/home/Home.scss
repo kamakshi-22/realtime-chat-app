@@ -23,19 +23,21 @@
         color: $dark;
         text-transform: capitalize;
     }
-
-    button{
-        padding: 0.5rem 2rem;
-        background-color: $primary;
-        color: $dark;
-        border-radius: 5px;
-        cursor: pointer;
-        text-transform: capitalize;
-
-        &:hover{
-            background-color: $light;
-            color: $dark;
-        }
-    }
 }
 
+button{
+    padding: 0.5rem 2rem;
+    background-color: $primary;
+    color: $dark;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    &:hover{
+        background-color: $light;
+        color: $dark;
+    }
+}
+.signout{
+    text-align: center;
+}

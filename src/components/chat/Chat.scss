@@ -1,0 +1,63 @@
+@import '../../App.scss';
+
+.chat{
+    border: 1px solid $light;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    color: $light;
+    margin: 1rem auto;
+
+    .header{
+        text-align: left;
+    }
+
+    .messages{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        height: 50vh;
+        .message{
+            display: flex;
+            gap: 0.5rem;
+
+            .user{
+                font-weight: bold;
+                color: $primary;
+            }
+        }
+    }
+    
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        input{
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background-color: $light;
+            color: $dark;
+            width: 100%;
+        }
+
+        button{
+            padding: 0.5rem 2rem;
+            background-color: $primary;
+            color: $dark;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $light;
+                color: $dark;
+            }
+        }
+    }
+}
