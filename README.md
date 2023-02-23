@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![1677129296932](image/README/1677129296932.gif)
+![1677130026843](image/README/1677130026843.gif)
 
 ## Available Scripts
 
