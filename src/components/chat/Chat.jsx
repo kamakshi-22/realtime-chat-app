@@ -63,7 +63,7 @@ export const Chat = (props) => {
             <div className='messages'>
                 {messages.map((message) => (
                     <div className='message' key="message.id">
-                        <span className='user'>{message.user + " :"}</span>
+                        <span className='user'>{"User " + message.user.slice(0,1) + " :"}</span>
                         <span className='text'>{message.text}</span>
                     </div>
                 ))}
